@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/second1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Second Fragment1" />
+
+    <EditText
+        android:id="@+id/second1_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="3"
+        android:text="0"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/second1_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0" />
+
+    <Button
+        android:id="@+id/second1_btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Move to left" />
+
+    <Button
+        android:id="@+id/second1_btn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open Main Fragment1" />
+
+    <Button
+        android:id="@+id/second1_btn3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open Main Fragment2" />
+
+    <Button
+        android:id="@+id/second1_btn4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open Second Fragment2" />
+</LinearLayout>

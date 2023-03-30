@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="activity_masterdetail" type="layout">@layout/activity_main</item>
+</resources>
+    <!--
+    в файле res/values/refs.xml указаны ресурсы-псевдонимы (alias resource)
+    ресурсы-псевдонимы указывают на другие ресурсы
+    наша задача - создать ресурс-псевдоним, который ссылается на activity_main.xml на телефонах
+    и на activity_twopane.xml на планшетах
+    внутренний класс идентификатора определяется атрибутом type
+    по этой причине хотя ресурс находится в res/values, его идентифиактор хранится в R.layout
+    полный идентификатор - R.layout.activity_masterdetail
+    -->

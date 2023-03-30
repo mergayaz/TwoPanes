@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Название в приложениях</string>
+    <string name="main_title">Название на иконке</string>
+    <string name="main_fragment1_title">Заголовок main fragment1</string>
+    <string name="main_fragment2_title">Заголовок main fragment2</string>
+    <string name="second_fragment1_title">Заголовок second fragment1</string>
+    <string name="second_fragment2_title">Заголовок second fragment2</string>
+</resources>
